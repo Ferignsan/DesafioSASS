@@ -1,0 +1,32 @@
+@import "./base/condicionales";
+@import "./base/extends";
+@import "./base/maps";
+@import "./base/mixins";
+@import "./base/variables";
+@import "./component/botones";
+@import "./component/listas";
+
+body{
+    background: $variables;
+    font-size: $defaultFontSize;
+}
+
+p{
+    font-size: $defaultFontSize;
+    background: #09c;
+    @include radial-border(10px);
+}
+
+div{
+    @include radial-border;
+}
+
+%placeholder1{
+    border: 1px solid #09c;
+    background: #ccc;
+    @include radial-border;
+}
+
+.button{
+    @extend %placeholder1
+}

@@ -1,0 +1,34 @@
+main {
+  background-color: darkgreen; }
+  main h1 {
+    background-color: beige; }
+  main h3 {
+    background-color: beige; }
+  main p {
+    background-color: aqua; }
+body{
+  background: blueviolet;
+  font-size: 18px;
+}
+
+p{
+  font-size: 18px;
+  background: blueviolet;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+div{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button{
+  border: 1px solid #09c;
+  background: blueviolet;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
